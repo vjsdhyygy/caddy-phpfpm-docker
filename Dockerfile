@@ -1,6 +1,6 @@
 FROM caddy:alpine AS caddy-deps
 
-FROM alpine:3.18
+FROM alpine:3.16
 
 LABEL maintainer="vjsdhyygy <chaowencn@gmail.com>"
 
@@ -10,99 +10,99 @@ RUN apk update && \
 		mailcap \
 		supervisor \
 		libcap \
-		php82 \
-		php82-bcmath \
-		php82-brotli \
-		php82-bz2 \
-		php82-calendar \
-		php82-common \
-		php82-ctype \
-		php82-curl \
-		php82-dba \
-		php82-dbg \
-		php82-dev \
-		php82-doc \
-		php82-dom \
-		php82-embed \
-		php82-enchant \
-		php82-exif \
-		php82-ffi \
-		php82-fileinfo \
-		php82-fpm \
-		php82-ftp \
-		php82-gd \
-		php82-gettext \
-		php82-gmp \
-		php82-iconv \
-		php82-imap \
-		php82-intl \
-		php82-ldap \
-		php82-litespeed \
-		php82-mbstring \
-		php82-mysqli \
-		php82-mysqlnd \
-		php82-odbc \
-		php82-opcache \
-		php82-openssl \
-		php82-pcntl \
-		php82-pdo \
-		php82-pdo_dblib \
-		php82-pdo_mysql \
-		php82-pdo_odbc \
-		php82-pdo_pgsql \
-		php82-pdo_sqlite \
-		php82-pear \
-		php82-pecl-amqp \
-		php82-pecl-apcu \
-		php82-pecl-ast \
-		php82-pecl-couchbase \
-		php82-pecl-igbinary \
-		php82-pecl-imagick \
-		php82-pecl-imagick-dev \
-		php82-pecl-lzf \
-		php82-pecl-maxminddb \
-		php82-pecl-memcache \
-		php82-pecl-memcached \
-		php82-pecl-mongodb \
-		php82-pecl-msgpack \
-		php82-pecl-protobuf \
-		php82-pecl-psr \
-		php82-pecl-redis \
-		php82-pecl-smbclient \
-		php82-pecl-ssh2 \
-		php82-pecl-swoole \
-		php82-pecl-swoole-dev \
-		php82-pecl-uploadprogress \
-		php82-pecl-uploadprogress-doc \
-		php82-pecl-uuid \
-		php82-pecl-xdebug \
-		php82-pecl-xhprof \
-		php82-pecl-xhprof-assets \
-		php82-pecl-yaml \
-		php82-pecl-zstd \
-		php82-pgsql \
-		php82-phar \
-		php82-phpdbg \
-		php82-posix \
-		php82-pspell \
-		php82-session \
-		php82-shmop \
-		php82-simplexml \
-		php82-snmp \
-		php82-soap \
-		php82-sockets \
-		php82-sodium \
-		php82-sqlite3 \
-		php82-sysvmsg \
-		php82-sysvsem \
-		php82-sysvshm \
-		php82-tidy \
-		php82-tokenizer \
-		php82-xml \
-		php82-xmlreader \
-		php82-xmlwriter \
-		php82-xsl \
-		php82-zip 
+		php8 \
+		php8-bcmath \
+		php8-brotli \
+		php8-bz2 \
+		php8-calendar \
+		php8-common \
+		php8-ctype \
+		php8-curl \
+		php8-dba \
+		php8-dbg \
+		php8-dev \
+		php8-doc \
+		php8-dom \
+		php8-embed \
+		php8-enchant \
+		php8-exif \
+		php8-ffi \
+		php8-fileinfo \
+		php8-fpm \
+		php8-ftp \
+		php8-gd \
+		php8-gettext \
+		php8-gmp \
+		php8-iconv \
+		php8-imap \
+		php8-intl \
+		php8-ldap \
+		php8-litespeed \
+		php8-mbstring \
+		php8-mysqli \
+		php8-mysqlnd \
+		php8-odbc \
+		php8-opcache \
+		php8-openssl \
+		php8-pcntl \
+		php8-pdo \
+		php8-pdo_dblib \
+		php8-pdo_mysql \
+		php8-pdo_odbc \
+		php8-pdo_pgsql \
+		php8-pdo_sqlite \
+		php8-pear \
+		php8-pecl-amqp \
+		php8-pecl-apcu \
+		php8-pecl-ast \
+		php8-pecl-couchbase \
+		php8-pecl-igbinary \
+		php8-pecl-imagick \
+		php8-pecl-imagick-dev \
+		php8-pecl-lzf \
+		php8-pecl-maxminddb \
+		php8-pecl-memcache \
+		php8-pecl-memcached \
+		php8-pecl-mongodb \
+		php8-pecl-msgpack \
+		php8-pecl-protobuf \
+		php8-pecl-psr \
+		php8-pecl-redis \
+		php8-pecl-smbclient \
+		php8-pecl-ssh2 \
+		php8-pecl-swoole \
+		php8-pecl-swoole-dev \
+		php8-pecl-uploadprogress \
+		php8-pecl-uploadprogress-doc \
+		php8-pecl-uuid \
+		php8-pecl-xdebug \
+		php8-pecl-xhprof \
+		php8-pecl-xhprof-assets \
+		php8-pecl-yaml \
+		php8-pecl-zstd \
+		php8-pgsql \
+		php8-phar \
+		php8-phpdbg \
+		php8-posix \
+		php8-pspell \
+		php8-session \
+		php8-shmop \
+		php8-simplexml \
+		php8-snmp \
+		php8-soap \
+		php8-sockets \
+		php8-sodium \
+		php8-sqlite3 \
+		php8-sysvmsg \
+		php8-sysvsem \
+		php8-sysvshm \
+		php8-tidy \
+		php8-tokenizer \
+		php8-xml \
+		php8-xmlreader \
+		php8-xmlwriter \
+		php8-xsl \
+		php8-zip 
 
 RUN set -eux; \
 	mkdir -p \
@@ -118,8 +118,8 @@ ENV XDG_CONFIG_HOME /config
 ENV XDG_DATA_HOME /data
 
 
-LABEL org.opencontainers.image.version="caddy v2.7.5 and php8.2-fpm "
-LABEL org.opencontainers.image.title="Caddy whit php82-fpm"
+LABEL org.opencontainers.image.version="caddy  and php8-fpm "
+LABEL org.opencontainers.image.title="Caddy whit php8-fpm"
 LABEL org.opencontainers.image.description="apk add php-fpm"
 LABEL org.opencontainers.image.documentation=https://caddyserver.com/docs
 LABEL org.opencontainers.image.vendor="vjsdhyygy"
