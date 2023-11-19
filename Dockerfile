@@ -68,7 +68,6 @@ RUN apk update && \
 		php8-pecl-protobuf \
 		php8-pecl-psr \
 		php8-pecl-redis \
-		php8-pecl-smbclient \
 		php8-pecl-ssh2 \
 		php8-pecl-swoole \
 		php8-pecl-swoole-dev \
