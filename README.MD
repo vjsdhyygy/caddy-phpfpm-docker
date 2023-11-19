@@ -4,7 +4,7 @@
  1. Download files
 
  ````shell
-git clone -b php-fpm8.2.12 --single-branch https://github.com/vjsdhyygy/caddy-phpfpm-docker caddy-phpfpm-docker 
+git clone -b php-fpm8.1 --single-branch https://github.com/vjsdhyygy/caddy-phpfpm-docker caddy-phpfpm-docker 
 ````
 
  2. Enter in foder an build
@@ -17,5 +17,5 @@ docker build -t <name> .
 Or 
 
 ````shell
-docker pull vjsdhyygy/caddyphp:php82fpm
+docker pull vjsdhyygy/caddyphp:php81fpm
 ````
